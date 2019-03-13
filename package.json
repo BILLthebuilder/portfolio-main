@@ -1,0 +1,13 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server . -p 4200 -a localhost -o",
+    "release": "firebase deploy"
+  },
+  "devDependencies": {
+    "firebase-tools": "^4.0.3"
+  }
+}
