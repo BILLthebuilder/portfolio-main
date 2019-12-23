@@ -1,6 +1,6 @@
 {
-  "name": "John Woodruff",
-  "short_name": "J Woodruff",
+  "name": "Bill Kariri",
+  "short_name": "B Kariri",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -15,6 +15,6 @@
   ],
   "theme_color": "#1a86e0",
   "background_color": "#1a86e0",
-  "start_url": "https://johnbwoodruff.com",
+  // "start_url": "https://kariri.tech",
   "display": "standalone"
 }
