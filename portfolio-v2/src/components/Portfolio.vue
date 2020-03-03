@@ -2,6 +2,7 @@
 <fragment>
    <Hero/>
    <Projects/>
+   <Skills />
 </fragment>
 </template>
 
@@ -9,12 +10,14 @@
 import { Fragment } from 'vue-fragment';
 import Hero from './Hero';
 import Projects from './Projects';
+import Skills from './Skills';
 export default {
   name: 'Portfolio',
   components:{
   Fragment,
   Hero,
-  Projects
+  Projects,
+  Skills
   }
 }
 </script>
