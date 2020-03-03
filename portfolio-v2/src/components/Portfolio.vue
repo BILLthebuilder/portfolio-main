@@ -1,13 +1,20 @@
 <template>
-    <Hero/>
+<fragment>
+   <Hero/>
+   <Projects/>
+</fragment>
 </template>
 
 <script>
+import { Fragment } from 'vue-fragment';
 import Hero from './Hero';
+import Projects from './Projects';
 export default {
   name: 'Portfolio',
   components:{
-  Hero
+  Fragment,
+  Hero,
+  Projects
   }
 }
 </script>
