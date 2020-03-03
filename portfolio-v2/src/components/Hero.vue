@@ -105,7 +105,7 @@ export default {
   position: absolute;
   bottom: 15px;
   cursor: pointer;
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 .more-button > .fal {
