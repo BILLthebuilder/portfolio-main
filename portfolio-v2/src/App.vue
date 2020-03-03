@@ -1,7 +1,5 @@
 <template>
-  <div id="app">
     <Portfolio/>
-  </div>
 </template>
 
 <script>
@@ -16,5 +14,11 @@ export default {
 </script>
 
 <style>
-
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'PT Mono', monospace;
+}
 </style>
