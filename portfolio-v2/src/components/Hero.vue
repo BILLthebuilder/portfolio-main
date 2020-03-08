@@ -115,8 +115,18 @@ export default {
   position: absolute;
   bottom: 15px;
   cursor: pointer;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce-1;
+  animation-timing-function: ease;
   /* opacity: 0; */
 }
+
+@keyframes bounce-1 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-8px); }
+        100% { transform: translateY(0); }
+  }
 
 .more-button > .fal {
   font-size: 30px;
