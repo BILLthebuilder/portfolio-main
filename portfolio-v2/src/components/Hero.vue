@@ -11,7 +11,7 @@
     <h4 class="ml16">Software Developer</h4>
     <div class="more-button">
       <p>Check out my work!</p>
-      <i class="fas fa-chevron-down" @click="greet"></i>
+      <i class="fal fa-chevron-down" @click="greet"></i>
     </div>
   </div>
   </fragment>
