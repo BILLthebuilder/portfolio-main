@@ -11,7 +11,7 @@
     <h4 class="ml16">Software Developer</h4>
     <div class="more-button">
       <p>Check out my work!</p>
-      <i class="fal fa-chevron-down" @click="greet"></i>
+      <i class="fas fa-chevron-down" @click="greet"></i>
     </div>
   </div>
   </fragment>
@@ -128,7 +128,7 @@ export default {
         100% { transform: translateY(0); }
   }
 
-.more-button > .fal {
+.more-button > .fas {
   font-size: 30px;
 }
 
