@@ -24,6 +24,16 @@ export default {
     name:'Hero',
     components:{
       Fragment
+    },
+    methods:{
+      greet: function scrollIt() {
+            const offset = document.querySelector('.hero').clientHeight - window.scrollY;
+             window.scrollBy({
+              behavior: 'smooth',
+              left: 0,
+               top: offset
+           });
+}
     }
 }
 </script>
