@@ -222,9 +222,19 @@
 
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker
+      /*navigator.serviceWorker
         .register('/sw.js', { scope: '/' })
-        .then(function () { console.log('Service Worker Registered'); });
+		.then(function () { console.log('Service Worker Registered'); });*/
+		navigator.serviceWorker.getRegistrations().then(
+
+			function (registrations) {
+
+				for (let registration of registrations) {
+					registration.unregister();
+
+				}
+			console.log('service worker unregistered')
+			});
     }
   </script>
   <script src="js/vendor/smoothscroll.min.js"></script>
